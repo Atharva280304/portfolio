@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Atharva Tiwari, a passionate Frontend Developer specializing in responsive websites, seamless UI design, and modern scalable web experiences.">
+    <meta name="keywords" content="Atharva Tiwari, Frontend Developer, Web Developer Portfolio, Pune Developer, React Developer">
+    <meta name="author" content="Atharva Tiwari">
+    <title>Atharva Tiwari | Frontend Developer</title>
+    
+    <!-- Open Graph / SEO -->
+    <meta property="og:title" content="Atharva Tiwari | Frontend Developer">
+    <meta property="og:description" content="Portfolio of Atharva Tiwari, a passionate Frontend Developer specializing in responsive websites, seamless UI design, and modern scalable web experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Atharva280304.github.io/portfolio/">
+    
+    <!-- Dynamic Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Atharva Tiwari",
+      "url": "https://Atharva280304.github.io/portfolio/",
+      "email": "atharvalappy28@gmail.com",
+      "sameAs": [
+        "https://github.com/Atharva280304",
+        "https://www.linkedin.com/in/atharva-tiwari282615/"
+      ],
+      "jobTitle": "Frontend Developer"
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="header-logo">Welcome 👋</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact" class="btn-outline nav-cta">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-container section-container">
+            <!-- Left Side Text -->
+            <div class="hero-text reveal-up">
+                <p class="greeting">HI THERE, I'M</p>
+                <h1 class="name">Atharva Tiwari</h1>
+                <h2 class="title">A <span class="gradient-text">Bug Squasher</span></h2>
+                <p class="tagline">I build fast, responsive websites and fix UI bugs efficiently. Delivering premium web experiences through modern design and clean code.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#certifications" class="btn-primary">View Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                    <a href="https://wa.me/917307530161" target="_blank" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+            
+            <!-- Right Side Image Card -->
+            <div class="hero-image-wrapper reveal-up" style="transition-delay: 200ms;">
+                <div class="image-inner">
+                    <img src="profile.jpg.jpg" alt="Atharva Tiwari" loading="lazy" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="about-content glass-card reveal-up">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I am a passionate <strong>Frontend Developer</strong> dedicated to crafting stunning, user-centric web applications. I focus on creating clean UI/UX designs that not only look beautiful but are highly functional and accessible.</p>
+                    <p>With a strong foundation in modern web technologies, I excel at turning complex problems into simple, elegant solutions, ensuring optimal performance across all devices.</p>
+                </div>
+                
+                <div class="skills-container">
+                    <h3>My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag"><i class="fab fa-html5 skill-icon"></i> HTML</div>
+                        <div class="skill-tag"><i class="fab fa-css3-alt skill-icon"></i> CSS</div>
+                        <div class="skill-tag"><i class="fab fa-js skill-icon"></i> JavaScript</div>
+                        <div class="skill-tag"><i class="fab fa-react skill-icon"></i> React Basics</div>
+                        <div class="skill-tag"><i class="fas fa-robot skill-icon"></i> AI Tools</div>
+                        <div class="skill-tag"><i class="fas fa-mobile-alt skill-icon"></i> Responsive Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2>My <span class="gradient-text">Services</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card glass-card reveal-up">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Website Development</h3>
+                    <p>Building scalable, fast-loading, and responsive web experiences from scratch using modern web technologies tailored to your brand.</p>
+                </div>
+                
+                <div class="service-card glass-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="service-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Bug Fixing</h3>
+                    <p>Identifying, isolating, and rectifying responsive issues, CSS inconsistencies, and JavaScript logic errors to ensure seamless usability.</p>
+                </div>
+                
+                <div class="service-card glass-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="service-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Landing Pages</h3>
+                    <p>Designing high-converting, visually appealing landing pages optimized for performance and targeted user engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2>My <span class="gradient-text">Certifications</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="cert-grid" id="cert-grid">
+                <!-- Certificates injected dynamically via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="contact-content glass-card reveal-up">
+                <div class="contact-info">
+                    <h3>Let's build something amazing together.</h3>
+                    <p>Whether you have a project in mind, need a bug squashed, or simply want to connect, my inbox is always open.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Remote / Worldwide</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>atharvalappy28@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/917307530161" target="_blank" style="color: inherit; text-decoration: none;"><span>+91 7307530161</span></a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/atharva-tiwari282615" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Atharva Tiwari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917307530161" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
